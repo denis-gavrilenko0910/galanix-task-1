@@ -1,0 +1,29 @@
+.nav-flags,
+.list,
+.link,
+.flags,
+.items,
+.element,
+.logo {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Jost";
+  font-weight: bold;
+}
+.section {
+  padding-bottom: 565px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}

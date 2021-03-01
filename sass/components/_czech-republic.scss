@@ -1,0 +1,15 @@
+.triangle {
+  display: flex;
+  width: 0;
+  height: 0;
+
+  border-radius: 4px 0px 4px 4px;
+
+  width: 40%;
+  height: 100%;
+  background-color: #08437f;
+  clip-path: polygon(100% 50%, 0 100%, 0 0);
+}
+.czech-republic {
+  background: linear-gradient(#ffffff 50%, #d80c13 50%);
+}

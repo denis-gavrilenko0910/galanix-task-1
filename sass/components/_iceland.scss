@@ -1,0 +1,64 @@
+.iceland {
+  position: relative;
+}
+.iceland {
+  display: flex;
+  background: #0048e0;
+  height: 150px;
+}
+.iceland::before,
+.iceland::after {
+  background: #fff;
+  width: 100%;
+}
+.vertical-line::before,
+.vertical-line::after {
+  background: #fff;
+  width: 10%;
+  height: 100%;
+}
+
+.iceland::before,
+.iceland::after {
+  content: "";
+  position: absolute;
+}
+.vertical-line::before,
+.vertical-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+}
+
+.iceland::after {
+  background: #d72828;
+}
+.vertical-line::after {
+  background: #d72828;
+}
+
+.iceland::before {
+  top: 40%;
+  height: 20%;
+}
+.vertical-line::before {
+  left: 20%;
+  height: 100%;
+}
+.iceland::before {
+  left: 0;
+  width: 100%;
+}
+
+.iceland::after {
+  top: 45%;
+  height: 10%;
+}
+.vertical-line::after {
+  left: 22.5%;
+  width: 5%;
+}
+.iceland::after {
+  left: 0;
+  width: 100%;
+}

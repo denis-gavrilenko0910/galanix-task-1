@@ -1,0 +1,27 @@
+.element:not(:first-child) {
+  //margin top for each list of flags except first
+  margin-top: 5px;
+}
+.element {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 5px 0;
+  width: 300px;
+  height: 160px;
+}
+
+.items {
+  //makes all links from inline elements to block
+  display: flex;
+}
+.flag-box {
+  //width and shadows for each flag box
+  display: flex;
+  width: 300px;
+
+  box-shadow: 1px 0px 10px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 7px rgba(0, 0, 0, 0.14), 0px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px 4px 4px 4px;
+}
